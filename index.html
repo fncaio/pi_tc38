@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TECHHELP - Suporte técnico de confiança, com serviços especializados em TI.">
+    <meta name="keywords" content="suporte técnico, TI, manutenção de sistemas, redes, hardware, software">
+    <title>TechHelp - Suporte Técnico</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="assets/logo.jpg" type="image/x-icon">
+</head>
+<body>
+
+    <!-- Header de Navegação -->
+    <header class="main-header fade-in">
+        <div class="logo">TECHHELP</div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#login">Login</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção de Apresentação -->
+    <section class="intro-section fade-in" id="inicio">
+        <div class="intro-content">
+            <h1>Bem-vindo ao <span class="highlight">TECHHELP</span>!</h1>
+            <p>Seu suporte técnico de confiança.</p>
+            <p class="intro-text">Na TECHHELP, nossa missão é garantir que sua infraestrutura de TI esteja sempre funcionando da melhor maneira possível. Oferecemos suporte remoto e presencial, manutenção de sistemas, recuperação de dados, gestão de redes e muito mais. Se você está enfrentando algum problema técnico ou precisa de uma solução personalizada, estamos prontos para ajudar!</p>
+        </div>
+        <div class="intro-image">
+            <img loading="lazy" aria-hidden="true" src="./assets/removebg.png" alt="Suporte Técnico" class="illustration-image">
+        </div>
+    </section>
+
+<!-- Seção de Depoimentos -->
+<section class="testimonial-section fade-in" id="depoimentos">
+    <h2>Precisa de Suporte Imediato?</h2>
+    <div class="testimonial-carousel">
+        <div class="testimonial">
+            <blockquote>
+                <p>Está com problemas técnicos agora? Não se preocupe! Abra um chamado e nossa equipe estará pronta para ajudar você em minutos.</p>
+                <p class="author">– TECHHELP, Gerente de TI, Empresa X</p>
+            </blockquote>
+            <div class="testimonial-client">
+                <img loading="lazy" aria-hidden="true" src="./assets/imagem.png" alt="Foto do cliente" class="client-photo">
+            </div>
+        </div>
+        <!-- Adicionar mais depoimentos aqui -->
+    </div>
+</section>
+
+
+    <!-- Seção de Áreas de Atuação -->
+    <section class="areas-atuacao-section fade-in" id="servicos">
+        <h2>Áreas de Atuação</h2>
+        <div class="areas-container">
+            <div class="area-card">
+                <div class="area-icon">
+                    <a href="suporte.html"><img loading="lazy" aria-hidden="true" src="./assets/Rectangle1.png" alt="Suporte a Hardware"></a>
+                </div>
+                <p>Suporte a Hardware</p>
+            </div>
+            <div class="area-card">
+                <div class="area-icon">
+                    <img loading="lazy" aria-hidden="true" src="./assets/Rectangle2.png" alt="Suporte a Software">
+                </div>
+                <p>Suporte a Software</p>
+            </div>
+            <div class="area-card">
+                <div class="area-icon">
+                    <img loading="lazy" aria-hidden="true" src="./assets/Rectangle3.png" alt="Suporte a Rede e Conectividade">
+                </div>
+                <p>Suporte a Rede e Conectividade</p>
+            </div>
+            <div class="area-card">
+                <div class="area-icon">
+                    <a href="rede.html"><img loading="lazy" aria-hidden="true" src="./assets/Rectangle4.png" alt="Serviços de cloud computing"></a>
+                </div>
+                <p>Serviços de cloud computing</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="contato" class="contact-section fade-in">
+        <div class="contact-info">
+            <h2>Agende agora mesmo o diagnóstico da sua empresa</h2>
+            <p>Deixe sua mensagem que nossos times de especialistas em TI te retornarão logo logo.</p>
+        </div>
+        <form class="contact-form" action="mailto:contato@techhelp.com" method="post" enctype="text/plain">
+            <div class="form-group">
+                <input type="text" name="nome" placeholder="Nome*" required>
+                <input type="text" name="sobrenome" placeholder="Sobrenome*" required>
+            </div>
+            <div class="form-group">
+                <input type="email" name="email" placeholder="Email corporativo*" required>
+                <input type="tel" name="telefone" placeholder="Telefone*" required>
+            </div>
+            <div class="form-group">
+                <input type="text" name="empresa" placeholder="Empresa*" required>
+                <input type="text" name="cargo" placeholder="Qual o seu cargo?*" required>
+            </div>
+            <div class="form-group">
+                <input type="text" name="setor" placeholder="Qual o setor da sua empresa?*" required>
+                <input type="text" name="desafio" placeholder="Qual seu principal desafio em TI?*" required>
+            </div>
+            <textarea name="mensagem" placeholder="Mensagem*" required></textarea>
+            <button type="submit">Enviar</button>
+            <p class="disclaimer">Prometemos não utilizar suas informações de contato para enviar qualquer tipo de SPAM.</p>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer-section fade-in">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h3>TECHHELP</h3>
+                <p>Seu suporte técnico de confiança.</p>
+            </div>
+            <div class="footer-nav">
+                <h4>Navegação</h4>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contato</h4>
+                <p>Email: contato@techhelp.com</p>
+                <p>Telefone: (21) 9999-9999</p>
+                <p>Endereço: Av. das Empresas, 123 - Centro, Cidade</p>
+            </div>
+            <div class="footer-social">
+                <h4>Redes Sociais</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 TECHHELP. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
