@@ -7,7 +7,8 @@
     <meta name="description" content="TECHHELP - Suporte técnico de confiança, com serviços especializados em TI.">
     <meta name="keywords" content="suporte técnico, TI, manutenção de sistemas, redes, hardware, software">
     <title>TechHelp - Rede</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <!--<link rel="stylesheet" href="/css/style.css">-->
+    <link rel="stylesheet" href="/css/style_automacao_IA.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="icon" href="assets/logo.jpg" type="image/x-icon">
 </head>
@@ -15,41 +16,33 @@
 <body>
 
     <!-- Header de Navegação -->
-    <header class="main-header fade-in">
-        <div class="logo">TECHHELP</div>
-        <nav class="navbar">
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="#login">Login</a></li>
-                <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#depoimentos">Depoimentos</a></li>
-                <li><a href="#contato">Contato</a></li>
+    <header class="header-main fade-in">
+        <div class="logo">TECH<strong>HELP</strong></div>
+        <nav class="header-navbar">
+            <ul class="header-ul">
+                <li class="header-li"><a href="index.html">HOME</a></li>
+                <li class="header-li"><a href="#login">LOGIN</a></li>
+                <li class="header-li"><a href="#servicos">SERVIÇOS</a></li>
+                <li class="header-li"><a href="#depoimentos">ARTIGOS</a></li>
+                <li class="header-li"><a href="#contato">CONTATOS</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Seção de Apresentação -->
-
-    <section class="" id="">
-        <div class="">
+    <!-- Sessão de Apresentação -->
+    <section class="section-apresentation" id="">
+        <div class="section-apresentation-text">
             <h1>Automação e IA</h1>
             <p>Serviços e soluções de Automação e IA para sua empresa</p>
         </div>
-        <div class="" id="">
-            <img src="assets/automacao.jpg" width="500">
-        </div>
     </section>
 
-    <!-- Seção da area cloud -->
-        <div class="">
-            <img src="assets/automacao_img.jpg" alt="Imagem de chip feita com IA">
-        </div>
-    </section>
+    <!-- Sessão Orçamento -->
+    <section class="section-budget" id="">
 
-    <!-- Seção da Area de Soluções em Rede -->
-    <section class="" id="">
-        <h2>Entre em Contato</h2>
-        <div class="">
+        <div class="section-budget-contact">
+            <button class="botao-budget">Faça seu Orçamento</button>
+            <h2>Entre em Contato</h2>
             <ul>
                 <li class="">Sao Paulo (11)9999-9999</li>
                 <li class="">Recife (81)9999-9999</li>
@@ -61,27 +54,43 @@
                 <li class="">Av. das Esperanças, 123 - Centro, Cidade</li>
             </ul>
         </div>
+
+        <div class="section-budget-movie">
+            <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/UhA_ZgI-otM?si=qG9EffN7MJ7ByBdf"
+                title="YouTube video player"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        
+
     </section>
 
-    <section>
-        <h2>Soluções personalizadas de IA e Automação par sua empresa</h2>
-        <p>Soluções facilitar o serviço da sua empresa e alavancar suas vendas com soluções personalizadas </p>
-        <div class="card">
-            <img src="assets/card1_automacao.jpg" alt="">
-            <h2>ChatBots</h2>
+    <!-- Sessão soluções -->
+    <section class="section-solution">
+        <div class="section-solution-text">
+            <h2>Soluções personalizadas de IA e Automação par sua empresa</h2>
+            <p>Soluções facilitar o serviço da sua empresa e alavancar suas vendas com soluções personalizadas </p>
         </div>
-        <div class="card">
-            <img src="assets/card2-automacao.png" alt="">
-            <h2>Casa Inteligente</h2>
+        
+        <div class="section-solution-cards">
+            <div class="section-solution-card">
+                <img src="/assets/card1_automacao.jpg" alt="ChatBots">
+                <h4>ChatBots</h4>
+            </div>
+            <div class="section-solution-card">
+                <img src="/assets/card2-automacao.png" alt="Casa Inteligente">
+                <h4>Casa Inteligente</h4>
+            </div>
+            <div class="section-solution-card">
+                <img src="/assets/card3_automacao.png" alt="Automação Empresarial">
+                <h4>Automação empresarial</h4>  
+            </div>
         </div>
-        <div class="card">
-            <img src="assets/card3_automacao.png" alt="">
-            <h2>Automação empresarial</h2>
-            
-        </div>
+
     </section>
 
-    <!-- Rodapé -->
+    <!-- Footer -->
     <footer class="footer-section fade-in">
         <div class="footer-content">
             <div class="footer-logo">
@@ -89,7 +98,7 @@
                 <p>Seu suporte técnico de confiança.</p>
             </div>
             <div class="footer-nav">
-                <h4>Navegação</h4>
+                <h3>Navegação</h3>
                 <ul>
                     <li><a href="#inicio">Início</a></li>
                     <li><a href="#servicos">Serviços</a></li>
@@ -98,13 +107,13 @@
                 </ul>
             </div>
             <div class="footer-contact">
-                <h4>Contato</h4>
+                <h3>Contato</h3>
                 <p>Email: contato@techhelp.com</p>
                 <p>Telefone: (21) 9999-9999</p>
                 <p>Endereço: Av. das Empresas, 123 - Centro, Cidade</p>
             </div>
             <div class="footer-social">
-                <h4>Redes Sociais</h4>
+                <h3>Redes Sociais</h3>
                 <div class="social-icons">
                     <a href="#"><i class="fab fa-facebook-f"></i></a>
                     <a href="#"><i class="fab fa-twitter"></i></a>

@@ -1,0 +1,182 @@
+/* Reset de margens, padding e box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    height: 80px;
+    /*border: 3px solid red;*/
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size:x-large;
+}
+
+.header-ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.header-li{
+    list-style: none;
+    margin-left: 16px;
+}
+
+.header-li a {
+    font-weight: bold;
+    color: #1e1e1e;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: color 0.3s;
+}
+
+.section-apresentation{
+    color: white;
+    height: 150px;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), /* gradiente escuro */
+        url('https://portal.ciee.org.br/wp-content/uploads/2024/01/O-que-esperar-da-IA-em-2024.jpg');
+    background-size: cover;
+    background-position: center center;
+    /*border: 3px solid red;*/
+}
+
+.section-apresentation-text{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+/* Sessão orçamento */
+.section-budget{
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.section-budget-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section-budget-contact ul li{
+    padding-bottom: 10px;
+    list-style: none;
+}
+
+.botao-budget{
+    background-color: #20005d; 
+    color: white; 
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease;    
+}
+
+/* Sessão Soluções */
+.section-solution{
+    padding: 50px;
+    background-color: #51615e;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-solution-text{
+    text-align: center;
+}
+
+.section-solution-cards{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.section-solution-card{
+
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.section-solution-cards img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Footer */
+
+.footer-section {
+    /*border: 3px solid red;*/
+    background-color: white;
+    color: black;
+    padding: 20px 20px;
+    font-size: 0.9em;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.footer-content h3{
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.footer-nav ul {
+    list-style: none;
+}
+
+.footer-nav a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-nav a:hover {
+    color: #e6b800;
+}
+
+.footer-social .social-icons a {
+    color: #1e1e1e;
+    margin-right: 15px;
+    font-size: 1.2em;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.footer-social .social-icons a:hover {
+    color: #e6b800;
+    transform: scale(1.2);
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid black;
+}
